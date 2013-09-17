@@ -1358,7 +1358,7 @@ table th[class^="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: rgba(26, 188, 156, 0.1);
+  background-color: #9E652D;
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -1837,8 +1837,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #000000;
-  background-color: #15987e;
-  border-color: #0f705d;
+  background-color: #9E652D;
+  border-color: #9E652D;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3223,7 +3223,7 @@ button.close {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: rgba(22, 157, 130, 0.71);
+  background-color: #9E652D;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3243,7 +3243,7 @@ button.close {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #169d82;
+  border-color: #9E652D;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -4393,12 +4393,14 @@ a.list-group-item.active > .badge,
   overflow: hidden;
   width: 100%;
 }
+/*
 .carousel-inner > .item {
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
+*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
@@ -4535,6 +4537,7 @@ a.list-group-item.active > .badge,
 .carousel-caption .btn {
   text-shadow: none;
 }
+/*
 @media screen and (min-width: 768px) {
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
@@ -4553,6 +4556,7 @@ a.list-group-item.active > .badge,
     bottom: 20px;
   }
 }
+*/
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
@@ -4569,6 +4573,7 @@ a.list-group-item.active > .badge,
 .jumbotron p {
   line-height: 1.4;
 }
+/*
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding: 50px 60px;
@@ -4578,6 +4583,7 @@ a.list-group-item.active > .badge,
     font-size: 63px;
   }
 }
+*/
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -4615,14 +4621,18 @@ a.list-group-item.active > .badge,
 .affix {
   position: fixed;
 }
+/*
 @-ms-viewport {
   width: device-width;
 }
+*/
+/*
 @media screen and (max-width: 400px) {
   @-ms-viewport {
     width: 320px;
   }
 }
+*/
 .hidden {
   display: none !important;
   visibility: hidden !important;
@@ -4637,6 +4647,7 @@ th.visible-xs,
 td.visible-xs {
   display: table-cell !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-xs {
     display: none !important;
@@ -4649,6 +4660,8 @@ td.visible-xs {
     display: none !important;
   }
 }
+*/
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-xs {
     display: none !important;
@@ -4661,6 +4674,8 @@ td.visible-xs {
     display: none !important;
   }
 }
+*/
+/*
 @media (min-width: 1200px) {
   .visible-xs {
     display: none !important;
@@ -4673,6 +4688,7 @@ td.visible-xs {
     display: none !important;
   }
 }
+*/
 .visible-sm {
   display: none !important;
 }
@@ -4683,6 +4699,7 @@ th.visible-sm,
 td.visible-sm {
   display: none !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block !important;
@@ -4695,6 +4712,8 @@ td.visible-sm {
     display: table-cell !important;
   }
 }
+*/
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-sm {
     display: none !important;
@@ -4707,6 +4726,8 @@ td.visible-sm {
     display: none !important;
   }
 }
+*/
+/*
 @media (min-width: 1200px) {
   .visible-sm {
     display: none !important;
@@ -4719,6 +4740,7 @@ td.visible-sm {
     display: none !important;
   }
 }
+*/
 .visible-md {
   display: none !important;
 }
@@ -4729,6 +4751,7 @@ th.visible-md,
 td.visible-md {
   display: none !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-md {
     display: none !important;
@@ -4741,6 +4764,8 @@ td.visible-md {
     display: none !important;
   }
 }
+*/
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block !important;
@@ -4753,6 +4778,8 @@ td.visible-md {
     display: table-cell !important;
   }
 }
+*/
+/*
 @media (min-width: 1200px) {
   .visible-md {
     display: none !important;
@@ -4765,6 +4792,7 @@ td.visible-md {
     display: none !important;
   }
 }
+*/
 .visible-lg {
   display: none !important;
 }
@@ -4775,6 +4803,7 @@ th.visible-lg,
 td.visible-lg {
   display: none !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-lg {
     display: none !important;
@@ -4787,6 +4816,8 @@ td.visible-lg {
     display: none !important;
   }
 }
+*/
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-lg {
     display: none !important;
@@ -4811,6 +4842,7 @@ td.visible-lg {
     display: table-cell !important;
   }
 }
+*/
 .hidden-xs {
   display: none !important;
 }
@@ -4821,6 +4853,7 @@ th.hidden-xs,
 td.hidden-xs {
   display: none !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-xs {
     display: block !important;
@@ -4833,6 +4866,7 @@ td.hidden-xs {
     display: table-cell !important;
   }
 }
+*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-xs {
     display: block !important;
@@ -4913,6 +4947,7 @@ th.hidden-md,
 td.hidden-md {
   display: table-cell !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-md {
     display: block !important;
@@ -4949,6 +4984,7 @@ td.hidden-md {
     display: table-cell !important;
   }
 }
+*/
 .hidden-lg {
   display: block !important;
 }
@@ -4959,6 +4995,7 @@ th.hidden-lg,
 td.hidden-lg {
   display: table-cell !important;
 }
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-lg {
     display: block !important;
@@ -4995,6 +5032,7 @@ td.hidden-lg {
     display: none !important;
   }
 }
+*/
 .visible-print {
   display: none !important;
 }
@@ -5005,6 +5043,7 @@ th.visible-print,
 td.visible-print {
   display: none !important;
 }
+/*
 @media print {
   .visible-print {
     display: block !important;
@@ -5027,6 +5066,7 @@ td.visible-print {
     display: none !important;
   }
 }
+*/
 .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
