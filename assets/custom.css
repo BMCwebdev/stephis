@@ -20,13 +20,19 @@
 {
 margin-left:auto;
 margin-right:auto;
-width:70%;
+width:92%;
 }
 .center2
 {
 margin-left:auto;
 margin-right:auto;
-width:50%;
+width:70%;
+}
+.center3
+{
+margin-left:auto;
+margin-right:auto;
+width:90%;
 }
 
 .jumbotron {
@@ -85,4 +91,72 @@ ul {
 .copywrite {
 	float: right;
 	margin-top: 30px;
+}
+
+.collapse {
+    display: block;
+}
+
+.navbar-nav > .active > a:before {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #CB2236 !important;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin: 0 0 0 -5px;
+    position: absolute;
+    top: 4px;
+    width: 0;
+}
+
+.navbar-nav > .active > a:after {
+    background: none repeat scroll 0 0 #CB2236;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #CB2236;
+    text-decoration: none;
+}
+
+.navbar-inverse {
+    background-color: #CB2236;
+    border-color: #CB2236;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #CB2236;
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #333333;
+    display: none;
+}
+
+.navbar {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+    min-height: 50px;
+    position: relative;
+    z-index: 1000;
+}
+
+footer {
+    background: none repeat scroll 0 0 #CB2236;
+    border-top: 0 solid #000000 !important;
+    color: #000000;
+    margin-top: 40px;
+    padding-top: 0 !important;
+}
+
+.copywrite {
+    float: right;
+    margin-top: -25px;
 }
